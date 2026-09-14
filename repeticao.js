@@ -39,6 +39,7 @@ for (let i = 1; i <= 50; i++) {
 // Jogo de Adivinhação
 
 
+
 // Contagem Regressiva
 
 // Validação de Senha
@@ -48,3 +49,17 @@ for (let i = 1; i <= 50; i++) {
 // Média de valores
 
 
+// Nível Avançado
+
+// Soma dos dígitos de um número
+
+// Tabuada dinâmica
+
+// Inverter um número
+
+// Maior número digitado
+
+// Lista de nomes (forEach)
+
+
+//Desafio Extra: Sistema de Pedidos
