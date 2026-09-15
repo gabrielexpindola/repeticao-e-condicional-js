@@ -106,3 +106,90 @@
 // let item = produtos.find(produto => produto.id === 2);
 
 // console.log(item);
+
+
+// diferença entre filter e find
+// find retorna somente o primeiro elemento que ele encontra com a condição
+// filter retorna todos os elementos que encontra com a condição
+// let itemFiltrado = produtos.filter(produto => produto.id === 2);
+
+// arrow function / função lambda
+
+// console.log(itemFiltrado);
+
+// produtos.filter(function(produto) {
+//     produto.id === 2;
+// })
+
+// SPLIT
+// Divide a string em partes, transformando em um array
+
+// let frase = "JS é top";
+
+// // " " divide em palavras; "" divide em caracteres; "t" remove o t da string
+// let palavras = frase.split(" ");
+
+// console.log(palavras);
+
+// // TRIM
+// // trim remove espaços no inicio e fim de uma string
+
+// let nome = "     Paulo";
+// let nomeLimpo = nome.trim();
+
+// console.log(nome);
+// console.log(nomeLimpo);
+
+// INCLUDES
+// Verifica se existe um valor dentro de uma lista e retorna um booleano
+// true e false
+
+// let frutas = ["maçã", "banana"];
+
+// let frutasIncludes = frutas.includes("maçã");
+
+// console.log(frutasIncludes); // true
+
+// toLowerCase() -> transforma o texto em minusculo 
+// toUpperCase() -> transforma o texto em maiusculo
+// let nome = "GABRIEL";
+// let cargo = "aluno";
+
+// console.log(nome.toLowerCase); // imprime em minusculo (gabriel)
+// console.log(nome.toUpperCase); // imprime em maiusculo (ALUNO)
+
+// FOREACH
+
+// let nomes = ["Guilherme", "João", "Maria"];
+
+// nomes.forEach(nome => console.log(nome));
+
+// SOME
+// Verifica se pelo menos um item atende a condição e retorna boolean
+
+// let numeros = [1, 3, 5, 8];
+
+// let temPar = numeros.some(num => num % 2 === 0);
+// console.log(temPar); // true
+
+
+// // EVERY
+// // verifica se todos os elementos atendem a condição
+
+// let todosPares = numeros.every(num => num % 2 === 0);
+// console.log(todosPares); // false
+
+
+// SORT
+// Ordena os elementos do array 
+
+// let numeros = [3, 10, 5, 2, 4];
+// let letras = ["c", "a", "x", "h"];
+
+// // para letras
+// letras.sort();
+// console.log(letras);
+
+// // para números
+// numeros.sort((a, b) => a - b);
+// console.log(numeros);

@@ -51,7 +51,7 @@ if (idade2 >= 0 && idade2 <= 12) {
 } 
 if (idade2 >= 13 && idade2 <= 17) {
     console.log("Você é adolescente");
-} else if (idadec >= 18) {
+} else if (idade2 >= 18) {
     console.log("Você é adulto");
 }
 else {
